@@ -103,12 +103,27 @@ ul {
 
 .contain-three {
     background-color: #e4e4e4;
-    padding: 10px 300px;
+    padding: 10px;
     margin: 0;
+}
+
+.combiner-three {
+    display: flex;
+    flex-direction: column;
 }
 .inspiring-quote {
     font-size: 36px;
     font-family:'Times New Roman', Times, serif;
     color:#1F2937;
-    padding: 32px 128px;
+    padding: 28px 128px;
+}
+
+.quote-author {
+    font-family:'Times New Roman', Times, serif;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    margin-right:150px;
+    padding: 16px;
+
 }
