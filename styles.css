@@ -42,6 +42,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     padding: 16px;
+    max-width: 600px;
 }
 .main-title-signup-button {
     background-color:#3882F6 ;
@@ -83,10 +84,11 @@ ul {
     display: flex;
     justify-content: space-evenly;
     padding: 8px 128px;
+    flex-wrap: wrap;
 }
 .image {
-    height:150px;
-    width:150px;
+    height:120px;
+    width:120px;
     border:#3882F6 solid;
     border-radius: 10px;
     margin-left:auto;
@@ -97,6 +99,9 @@ ul {
     padding: 16px;
     font-family:'Times New Roman', Times, serif;
     color:grey;
+}
+.img-one, .img-two, .img-three, .img-four {
+    max-width: 200px;
 }
 
 /* this is the third section with the quote */
@@ -110,6 +115,7 @@ ul {
 .combiner-three {
     display: flex;
     flex-direction: column;
+    
 }
 .inspiring-quote {
     font-size: 36px;
@@ -127,3 +133,32 @@ ul {
     padding: 16px;
 
 }
+
+/*this is the fourth section with the signup button again */
+
+.four-text {
+    background-color: #3882F6;
+    margin: 40px 120px;
+    border-radius: 10px;
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.contain-four-subhead {
+    font-size: 24px;
+    font-weight: bold;
+    color:#E5E7EB;
+}
+.signup-exp {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.bottom-signup-button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border:#E5E7EB solid;
+    border-radius: 10px;
+}
+
