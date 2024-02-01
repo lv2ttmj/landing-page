@@ -1,0 +1,1 @@
+This is my webpage project done for The Odin Project in the HTML, CSS, and Flexbox modules. Although I tried my best to replicate the reference photo, I had difficulties matching fonts and the webpage when in a minimized tab version is not as ideal as I wanted it to be. The page took several hours to do, but was a very interesting learning experience.
